@@ -1,0 +1,93 @@
+body {
+    background: #d8bfd8;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    position: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+
+
+#enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #9d81ba;
+    background-color: #755d9a;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    font-weight: normal;
+}
+
+#enter:hover{
+    background-color: #c49fc4;
+    color: #FFCD5D;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #755d9a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #876c99;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+li:hover {
+    background: #755d9a;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: yellow;
+    font-weight: 800;
+}
+
+/*box*/
+input {
+    border-radius: 10px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+}
+
+
+.done {
+    background: peachpuff !important;
+    color:  white;
+}
+
+.delete {
+    display: none;
+}
